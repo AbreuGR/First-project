@@ -1,0 +1,95 @@
+body{
+
+    background-color: black ;
+    margin: 0%;
+}
+
+ul > li{
+
+    color: rgb(255, 255, 255);
+
+}
+
+header{
+
+    background-color: rgb(174, 162, 162);
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color: green;
+}
+
+.content{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.content-add-item{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    color: rgb(43, 43, 43);
+    gap: 5px;
+
+}
+
+#input-new-task{
+
+    outline: none; /*para tirar o sublinhado*/
+    border-radius: 10px;
+    font-size: medium;
+    padding: 8px;
+}
+
+
+#btn-new-task{
+    border-radius: 10px;
+    background-color: rgb(197, 177, 177);
+    cursor: pointer; /*para mudar o cursor ao passar pelo botão*/
+    padding: 9px;
+}   
+
+
+#btn-new-task:hover{
+
+    background-color: rgb(147, 134, 134);
+
+}
+
+
+.list{
+
+    display: flex; 
+    color: white;
+    justify-content: flex-start;
+    width: 300px;
+   
+}
+
+
+
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-decoration: none;
+    font-size: large;
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+
+#to-do-list li{
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    
+}

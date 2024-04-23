@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Projeto 2</title>
+
+   <!-- <link rel="stylesheet" href="style.css">-->
+
+</head>
+
+
+<body>
+
+  <div class="h-screen">
+
+    <header class="bg-gray-700 h-40 flex items-center justify-center">
+
+      <h1 class="text-white text-4xl h-28 flex items-center ">To do list/ Gabriel
+      </h1>
+  
+    </header>  
+  
+    <div class="content flex justify-center bg-black h-full">
+  
+      <div>
+  
+        <div class="flex justify-center items-center h-50">
+          <input class="my-9 p-1 rounded-lg" type="text" id="input-new-task" placeholder="task"/>
+          <button title="Adicionar" class="bg-white rounded-3xl w-7 h-7 ml-2 text-lg hover:bg-gray-300" onclick="newtask()" id="btn-new-task" title="press here to add">
+            +
+          </button>
+        </div>
+  
+        <div class="">
+          
+          <ul class="bg-black rounded-lg  w-60 text-gray-900 text-sm font-medium" id="to-do-list">
+            
+  
+          </ul>
+          
+        </div>
+  
+      </div>
+  
+    </div>
+
+
+  </div>
+
+ 
+
+<script src="index.js"></script>
+    
+    
+    
+</body>
+
+
+</html>
